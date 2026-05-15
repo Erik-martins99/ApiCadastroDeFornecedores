@@ -33,11 +33,12 @@ A aplicação permite que fornecedores realizem seu próprio cadastro, façam lo
 
 ## 🚀 Tecnologias Utilizadas
 
-### Backend
-- .NET 7 / ASP.NET Core Web API
-- Entity Framework Core
-- PostgreSQL
-- JWT Authentication
+## Backend
+
+- ASP.NET Core Web API (.NET 10)
+- Entity Framework Core (ORM)
+- PostgreSQL (Database)
+- JWT Authentication (Security)
 
 ### Frontend
 - React (JavaScript)
