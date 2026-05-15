@@ -4,6 +4,31 @@ Este projeto foi desenvolvido como parte de um teste técnico para implementaç�
 
 A aplicação permite que fornecedores realizem seu próprio cadastro, façam login e gerenciem seus dados em uma área restrita.
 
+## 📸 Telas do Sistema
+
+### 🔐 Login
+![Login](./docs/Login.png)
+
+---
+
+### 🧾 Cadastro de Fornecedor
+![Cadastro](./docs/Cadastro.png)
+
+---
+
+### 🏠 Home
+![Home](./docs/Home.png)
+
+---
+
+### ✏️ Edição de Fornecedor
+![Editar](./docs/Edit.png)
+
+---
+
+### 📋 Listagem de Fornecedores
+![Listagem](./docs/listagem.png)
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
