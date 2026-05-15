@@ -92,6 +92,11 @@ A aplicação trata os seguintes cenários:
 
 O projeto utiliza PostgreSQL.
 
+### Criação do Banco de Dados:
+- CREATE DATABASE fornecedores;
+- OBS (Sua string de conexão se encontra em ApiForncedores/appsettings.json(ConnectionStrings{DefaultConnection}))
+- A criação das tabelas do banco serão feitas pelo Entity Framework Core
+
 ### Configuração padrão:
 
 - Host: localhost
@@ -99,8 +104,6 @@ O projeto utiliza PostgreSQL.
 - Database: fornecedores
 - Usuário: postgres
 - Senha: postgres
-- OBS (Sua string de conexão se encontra em ApiForncedores/appsettings.json(ConnectionStrings{DefaultConnection}))
-- A criação das tabelas do banco serão feitas pelo Entity Framework Core
 
 ## 🔧 Como Executar o Projeto
 
