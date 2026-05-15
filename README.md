@@ -92,15 +92,34 @@ A aplicação trata os seguintes cenários:
 
 O projeto utiliza PostgreSQL.
 
+### Configuração padrão:
+
+- Host: localhost
+- Porta: 5432
+- Database: fornecedores
+- Usuário: postgres
+- Senha: postgres
+- OBS (Sua string de conexão se encontra em ApiForncedores/appsettings.json(ConnectionStrings{DefaultConnection}))
+- A criação das tabelas do banco serão feitas pelo Entity Framework Core
+
 ## 🔧 Como Executar o Projeto
 
 BACKEND:
-    - cd ApiForncedores
-    - dotnet restore
-    - dotnet ef database update
-    - dotnet run
+- cd ApiForncedores
+- dotnet restore
+- dotnet ef database update
+- dotnet run
 
 FRONTEND:
-    - cd FRONTEND
-    - npm install
-    - npm run dev
+- cd FRONTEND
+- npm install
+- npm run dev
+
+## 📈 Melhorias Futuras
+
+- Mover string de conexão para variáveis de ambiente  
+- Armazenar chave JWT em variáveis de ambiente  
+- Implementar testes automatizados (unitários e integração)  
+- Adicionar paginação na listagem de fornecedores   
+- Implementar refresh token para autenticação  
+- Dockerizar aplicação para facilitar deploy  
